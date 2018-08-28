@@ -1,0 +1,134 @@
+// #6A8CFF
+
+
+
+
+
+// // .toolbar {
+// //     width: 100%;
+// //     top: 0;
+// //     left: 0;
+// //     position: fixed;
+// //     background-color: #809DFF;
+// //     height: 5.6rem;
+// // }
+
+// // .toolbar__navigation {
+// //     display: flex;
+// //     height: 100%;
+// //     align-items: center;
+// //     padding: 0 1rem;
+// // }
+
+
+
+// // .toolbar__logo a {
+// //     color: whitesmoke;
+// //     text-decoration: none;
+// //     font-size: 1.5rem;
+// // }
+
+// // .space {
+// //     flex: 1;
+// // }
+
+// // .toolbar__navigation-items ul {
+// //     list-style: none;
+// //     margin: 0;
+// //     padding: 0;
+// //     display: flex;
+// // }
+
+// * {
+//     margin: 0;
+//     padding: 0;
+// }
+
+// .toolbar {
+//     width: 100%;
+//     top: 0;
+//     left: 0;
+//     height: 5rem;
+//     position: fixed;
+//     background-color: #6A8CFF;
+// }
+
+// .toolbar__navigation {
+//     display: flex;
+//     width: 100%;
+//     left: 0;
+//     height: 100%;
+//     align-items: center;
+// }
+
+// .toolbar__navigation-items {
+//     width: 100%;
+//     align-items: center;
+// }
+
+// .toolbar__navigation-items ul {
+//     display: flex;
+//     width: 100%;
+//     justify-content: space-around;
+//     align-items: center;
+//     list-style: none;
+// }
+
+// .toolbar__navigation-items a {
+//     color: whitesmoke;
+//     text-decoration: none;
+
+//     &:hover, &:active {
+//         color: lightgray;
+//         text-decoration: none;
+//     }
+// }
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    padding: 1rem;
+    background-color: #6A8CFF;
+    width: 100%;
+}
+
+.nav-bar {
+    width: 100%;
+}
+
+.navbar-items {
+    width: 100%;
+}
+
+.navbar-items ul {
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    margin: auto;
+}
+
+.navbar-items li {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+}
+
+.navbar-items a, i {
+    padding: 0px 10px 0px 10px;
+    font-size: 2rem;
+    color: whitesmoke;
+    margin: auto;
+
+    &:hover {
+        transition: all .2s ease;
+        color: whitesmoke;
+        text-decoration: none;
+        opacity: .5;
+    }
+}
