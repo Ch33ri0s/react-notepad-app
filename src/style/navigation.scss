@@ -89,9 +89,8 @@ body {
 }
 
 .nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     top: 0;
     background-color: #6A8CFF;
     width: 100%;
@@ -103,13 +102,13 @@ body {
 }
 
 .navbar-items {
-    display: flex;
     width: 100%;
     margin: auto;
 }
 
 .navbar-items ul {
     display: flex;
+    justify-content: space-between;
     width: 100%;
     padding: 0;
     list-style: none;
@@ -119,13 +118,14 @@ body {
 
 .navbar-items li {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     text-decoration: none;
     margin: auto;
 }
 
 .navbar-items a, i {
-    display: flex;
     font-size: 2rem;
     font-weight: 800;
     color: whitesmoke;
