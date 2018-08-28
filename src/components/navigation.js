@@ -7,9 +7,9 @@ const Navbar = props => (
         <nav className='navbar'>
             <div className="navbar-items">
                 <ul>
-                    <li><Link to="/main"><i className="fas fa-align-justify"></i></Link></li>
+                    <li><Link to="/main"><i class="fas fa-bars"></i></Link></li>
                     <li><Link to="/">LOGO</Link></li>
-                    <li><Link to="/profile">tenysonpartridge<i class="fas fa-user-circle"></i></Link></li>
+                    <li><Link to="/profile">tenysonp123<i class="fas fa-user-circle"></i></Link></li>
                     {/* <li><a href="https://www.google.com">google</a></li> */}
                 </ul>
             </div>

@@ -1,7 +1,17 @@
 .footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     position: absolute;
     background-color: #6A8CFF;
-    padding: 3rem;
+    padding: 2rem;
     bottom: 0;
+}
+
+.footer-wrapper p {
+    font-size: .8rem;
+    opacity: .5;
+    color: whitesmoke;
+    margin: auto;
 }

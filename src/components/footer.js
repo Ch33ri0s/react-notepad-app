@@ -4,6 +4,7 @@ import '../style/footer.scss';
 
 const Footer = props => (
     <footer className="footer-wrapper">
+        <p>Powered by: Tenyson Partridge</p>
     </footer>
 );
 
